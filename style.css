@@ -82,8 +82,17 @@
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
 }
 
 .your-projects {
-    display:grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+
+}
+
+.card-icon {
+    width: 30px;
 }
