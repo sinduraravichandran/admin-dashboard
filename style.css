@@ -90,9 +90,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 3fr 3fr 3fr;
-
 }
 
 .card-icon {
     width: 30px;
+}
+
+.your-projects-title {
+    grid-column: 1 / 3;;
+}
+
+.trending-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.trending-box > * {
+    border: 1px black solid;
 }
