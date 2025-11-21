@@ -16,15 +16,29 @@
     grid-column: 1 / 2;
     background-color: #4891CE;
     display: grid;
-    grid-template-rows: 100px 40px 40px 40px 40px 40px 120px 40px 40px 40px;
+    grid-template-rows: 100px 40px 40px 40px 40px 120px 40px 40px 40px 40px;
+    grid-template-columns: 1fr 5fr;
     gap: 5px;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 
 .nav div {
-    /* border: 1px solid black; */
     color: white;
     font-weight: bold;
-    padding-left: 30%;
+}
+
+.nav-icon {
+    width: 20px;
+}
+
+.dashboard-icon {
+    width: 40px;
+}
+
+.dashboard-title {
+    font-size: 22px;
+
 }
 
 .header {
@@ -56,11 +70,13 @@
 
 .top-header {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr 1fr 3fr;
+    grid-template-columns: 1fr 8fr 1fr 1fr 2fr;
     align-items: center;
     justify-items: end;
     padding-right: 10px;
 }
+
+
 
 .search-bar {
     justify-self: start;
